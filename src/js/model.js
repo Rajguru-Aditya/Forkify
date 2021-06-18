@@ -80,19 +80,26 @@ export const updateServings = function(newServings){
     state.recipe.servings = newServings;
 };
 
+<<<<<<< HEAD
 const persistBookmarks = function(){
     localStorage.setItem("bookmarks", JSON.stringify(state.bookmarks));
 };
 
+=======
+>>>>>>> c2d426eb39fb1177a349322af292abc642711003
 export const addBookmark = function(recipe){
     // Add Bookmark
     state.bookmarks.push(recipe);
 
     // Mark current recipe as bookmark
     if(recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+<<<<<<< HEAD
 
     persistBookmarks();
 };
+=======
+}
+>>>>>>> c2d426eb39fb1177a349322af292abc642711003
 
 export const deleteBookmark = function(id){
     // Delete bookmark
@@ -100,6 +107,7 @@ export const deleteBookmark = function(id){
     state.bookmarks.splice(index, 1);
     // Remove bookmark from current recipe
     if(id === state.recipe.id) state.recipe.bookmarked = false;
+<<<<<<< HEAD
     
     persistBookmarks();
 };
@@ -110,3 +118,6 @@ const init = function(){
 };
 
 init();
+=======
+}
+>>>>>>> c2d426eb39fb1177a349322af292abc642711003

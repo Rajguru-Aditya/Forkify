@@ -10,6 +10,7 @@
     "author": "Aditya Rajguru",
     "license": "ISC",
     "devDependencies": {
+<<<<<<< HEAD
         "@parcel/transformer-sass": "^2.0.0-beta.2",
         "parcel": "^2.0.0-beta.2",
         "sass": "^1.35.1"
@@ -17,6 +18,14 @@
     "dependencies": {
         "core-js": "^3.14.0",
         "cors": "^2.8.5",
+=======
+        "@parcel/transformer-sass": "^2.0.0-beta.3.1",
+        "parcel": "^2.0.0-beta.3.1",
+        "sass": "^1.26.10"
+    },
+    "dependencies": {
+        "core-js": "^3.14.0",
+>>>>>>> c2d426eb39fb1177a349322af292abc642711003
         "fractional": "^1.0.0",
         "regenerator-runtime": "^0.13.7"
     }
